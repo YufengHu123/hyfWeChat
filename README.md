@@ -5,3 +5,5 @@
 $hyf = new wechat();
 $hyf->distribute();
 ![Image text](https://github.com/YufengHu123/hyfWeChat/blob/master/image/1.png)
+![Image text](https://github.com/YufengHu123/hyfWeChat/blob/master/image/2.png)
+![Image text](https://github.com/YufengHu123/hyfWeChat/blob/master/image/3.png)
