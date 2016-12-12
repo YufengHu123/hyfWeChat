@@ -382,22 +382,12 @@ class wechat
                 ),
             ),
         );
-
         $postJson = urldecode(json_encode($postArr));
-
-        dump($postJson);
-
-        dump($_SESSION['']);
-
         $res = $this->http_curl($url,'post','json',$postJson);
-
-
-        dump($res);
     }
-    //群发函数
+    //群发函数 此方法没有具体测试，因为群发，每天就一条
     function sendMsgAll(){
-
-        //1.获取全局access_token
+        //1.获取全局access_token  
         $access_token = $this->getWxAccessToken();
         //模拟群发接口数据 单图文
         $array = array(
@@ -416,12 +406,10 @@ class wechat
 //            'msgtype'=>'text',
 //        );
         //3.array转json
-
         $postJson = json_encode($array);
         //4.调用curl
         $url = 'https://api.weixin.qq.com/cgi-bin/message/mass/sendall?access_token='.$access_token;
 //        $res = $this->http_curl($url,'post','json',$postJson);
     }
-
 }
 ?>
