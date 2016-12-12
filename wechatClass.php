@@ -160,7 +160,7 @@ class wechat
     //添加关注响应函数
     private function eventTypeOfSubscribe(){
         //示例，欢迎信息
-        $contentStr = "您好！我是玉峰\n";
+        $contentStr = "您好！\n";
         $contentStr.= "欢迎关注我们的公众号:能否再见,虽然我TMD也感觉这名字很俗\n";
         $contentStr.= "我想多回复一些东西\n";
         $contentStr.= "但是不知道应该写点什么,这是最后一行！\n";
