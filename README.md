@@ -4,3 +4,4 @@
 底部菜单，和事件响应 根据实际需求更改，
 $hyf = new wechat();
 $hyf->distribute();
+![Image text](https://github.com/YufengHu123/hyfWeChat/blob/master/image/1.png)
