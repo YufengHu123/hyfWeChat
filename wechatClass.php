@@ -412,4 +412,11 @@ class wechat
 //        $res = $this->http_curl($url,'post','json',$postJson);
     }
 }
+<<<<<<< Updated upstream
 ?>
+=======
+
+
+
+?>
+>>>>>>> Stashed changes
